@@ -9,7 +9,7 @@ Files are included for Unraid configuration, but they are not necessary.
 
 https://github.com/Haoming02/sd-webui-forge-classic/tree/neo
 
-> [!WARNING] If running Nvidia Drivers, ensure they are up to date.
+[!WARNING] If running Nvidia Drivers, ensure they are up to date.
 
 ---
 
