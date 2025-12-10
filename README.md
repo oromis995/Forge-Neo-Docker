@@ -4,6 +4,7 @@ This repository provides a Docker setup for **SD-WebUI Forge Neo**, a branch of 
 
 The container is configured for **Python 3.11**, NVIDIA GPU passthrough, and optional persistent volumes for models, outputs, logs, and extensions.
 
+Files are included for Unraid configuration, but they are not necessary. 
 ---
 
 ## Features
