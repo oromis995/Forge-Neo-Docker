@@ -1,10 +1,15 @@
 # SD-WebUI Forge Neo (Docker)
 
-This repository provides a Docker setup for **SD-WebUI Forge Neo**, a branch of the Automatic1111 Stable Diffusion WebUI designed for advanced usage with GPU acceleration.
+This repository provides a Docker setup for **SD-WebUI Forge Neo** by Haoming02, a branch of the Automatic1111 Stable Diffusion WebUI designed for advanced usage with GPU acceleration.
 
 The container is configured for **Python 3.11**, NVIDIA GPU passthrough, and optional persistent volumes for models, outputs, logs, and extensions.
 
 Files are included for Unraid configuration, but they are not necessary. 
+
+
+https://github.com/Haoming02/sd-webui-forge-classic/tree/neo
+
+> [!WARNING] If running Nvidia Drivers, ensure they are up to date.
 
 ---
 
@@ -29,3 +34,4 @@ Files are included for Unraid configuration, but they are not necessary.
 
 ```bash
 docker build -t oromis995/sd-forge-neo .
+```
